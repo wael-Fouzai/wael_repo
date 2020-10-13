@@ -1,0 +1,10 @@
+apiVersion: V1
+kind: pod
+metadata:
+     name: myfirst-pod
+     labels: frontend
+  
+spec:
+  contenaires:
+          - name: waelrepo
+            images: waelfouzai/waelrepo:version1
